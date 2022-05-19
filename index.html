@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Anaheim&display=swap" rel="stylesheet">
+    <title>webpage involving forms</title>
+</head>
+<body>
+    <h1>application for permission to date my sister</h1>
+    <p><strong>note:</strong>form is to be completed at least 21 days prior to date</p>
+    <fieldset>
+        <legend>personal details</legend>
+        <p>
+            <label for="name">name</label>
+        <input type="text" placeholder="Enter name here" maxlength="42">
+        </p>
+        <p>
+        <label for="address">address</label>
+        <input type="text" placeholder="Enter address here">
+        </p>
+        <p>
+            <label for="email">email</label>
+            <input type="text" placeholder="Enter email here">
+        </p>
+        <p>
+            <label for="">phone number</label>
+            <input type="text" placeholder="Enter 10 digit number">
+        </p>
+        <p>
+            <label for="iq">IQ</label>
+            <input type="text" placeholder="Enter iq here">
+        </p>
+        <label for="gender">gender</label>
+        <br>
+        <p>
+        <label for="male">male</label>
+        <input type="radio" name="gender" value="male">
+        </p>
+        <p>
+        <label for="female">female</label>
+        <input type="radio" name="gender" value="female">
+        </p>
+        <p>
+        <label for="female">other</label>
+        <input type="radio" name="gender" value="other">
+        </p>
+        <label for="date">date of proposed outing:</label>
+        <input type="date" name="d-day">
+    </fieldset>
+    <fieldset>
+        <p>check all that apply</p>
+        <input type="checkbox" name="replies" value="replies">
+        i reply texts early<br>
+        <input type="checkbox" name="job" value="job">
+        i have a job <br>
+        <input type="checkbox" name="single" value="single">
+        single and searching <br>
+        <input type="checkbox" name="cheat" value="cheat">
+         i cheat <br>
+         <input type="checkbox" name="hobbies" value="hobbies">
+         i have my own hobbies <br>
+         <input type="checkbox" name="dogs" value="dogs">
+         i love/tolerate dogs <br>
+    </fieldset>
+    <fieldset>
+        <label for="religion"> religion</label>
+        <select id="dropdown">
+            <option value="Christianity">Christianity</option>
+            <option value="Muslim">Muslim</option>
+            <option value="Athiest">Athiest</option>
+            <option value="Agonstic">Agnostic</option>
+            <option value="Indigenous">Indigenous</option>
+        </select>
+        <label for="education" class="sch">education level completed</label>
+        <select id="dropdown">
+            <option value="No Education">No Formal Education</option>
+            <option value="Primary">Primary level</option>
+            <option value="Secondary">Secondary</option>
+            <option value="University">University</option>
+            <option value="Above">University & Above</option>
+            <option value="Apprenticeship">Apprenticeship</option>
+        </select>
+    </fieldset>
+    <fieldset>
+        <legend>essay section</legend>
+        <p>in 50 words or less, explain why she should date you</p>
+        <textarea name="text" id="text" cols="30" rows="10" placeholder="Enter text here"></textarea>
+
+        <p>please upload contact details for previous partners</p>
+        <textarea name="contact" id="contact" cols="30" rows="10" placeholder="Enter text here"></textarea>
+    </fieldset>
+    <button type="submit">Submit</button>
+</body>
+</html>
